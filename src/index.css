@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "inter";
+    font-weight: normal;
+    src: url("../public/assets/fonts/Inter-Black.ttf") format('truetype');
+}
+@font-face {
+    font-family: "inter";
+    font-weight: bold;
+    src: url("../public/assets/fonts/Inter-Bold.ttf") format('truetype');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #3a3a3a;
+}
