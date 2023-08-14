@@ -1,5 +1,6 @@
 import React from "react";
 import { GiCheckMark } from "react-icons/gi";
+import Card from "../components/card";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <br /> Does not matter how many tasks you done, It’s important to break
         to small tasks and be on progress.
       </p>
+      <Card title="Todo" icon="💪" bgColorCard="#FEF4F3" titleColor="#6E1E29" />
     </div>
   );
 }
