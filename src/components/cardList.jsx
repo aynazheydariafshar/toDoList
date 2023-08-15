@@ -1,18 +1,11 @@
 import React from "react";
 import Card from "./card";
+import ToDo from "./toDo";
 
 export default function CardList() {
   return (
     <div className="flex-wrap flex justify-between items-center mt-[46px]">
-      <Card
-        title="Todo"
-        bgColorCard="#FEF4F3"
-        titleColor="#6E1E29"
-        numberOfList="2"
-        colorCaption="#D4AFB4"
-      >
-        hhh{" "}
-      </Card>
+      <ToDo />
       <Card
         title="Doing"
         icon="💪"
